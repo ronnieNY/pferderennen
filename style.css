@@ -1,14 +1,79 @@
-.navbar {
-    background: #015A6F;
-    color: #FFFFFF;
+body,
+html {
+    min-height: 100%;
 }
 
-.navlogo {
-    border-collapse: collapse;
+.navbar {
+    background: #015A6F;
+}
+
+.nav-item {
+    padding: 10px;
 }
 
 .navlogo img {
-    width: 20%;
+    height: 80px;
     display: block;
-    border: 2px solid black;
+    border-radius: px;
+}
+
+.nav-link {
+    color: white !important;
+    transition: .2s;
+    font-size: 1.2em;
+}
+
+.nav-link:hover {
+    color: #28C1E5 !important;
+    transform: scale(1.1, 1.1);
+}
+
+.dropdown-menu {
+    background-color: #015A6F;
+    color: #017590;
+    margin-left: -80px;
+    overflow: hidden;
+}
+
+.dropdown-item {
+    color: white;
+    transition: .2s;
+}
+
+.dropdown-item:hover {
+    color: #28C1E5 !important;
+    background-color: #015A6F;
+    transform: scale(1.1, 1.1)
+}
+
+
+/*parallax image*/
+
+.parallax-image {
+    background-image: url("https://www.wintiaktuell.ch/images/Fotostrecken/Pferderennen/19-or7638.jpg");
+    max-width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    Background-repeat: no-repeat;
+    margin-bottom: 0px;
+    z-index: -100;
+}
+
+.sponsor-bilder {
+    position: absolute;
+    top: -8em;
+    left: 5em;
+    font-size: em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #015A6F;
+    color: white;
 }

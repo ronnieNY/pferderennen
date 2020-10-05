@@ -1,0 +1,14 @@
+Farbkonzept
+===========
+
+1. #28C1E5      *Hellste Blau
+2. #05BFEB      *Hellblau
+3. #01A1C7      *Blau
+4. #017590      *Cyan
+5. #015A6F      *Dunkel Cyan
+
+
+Header & Footer
+---------------
+Background: #015A6F
+Color: #FFFFFF
