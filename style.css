@@ -1,0 +1,14 @@
+.navbar {
+    background: #015A6F;
+    color: #FFFFFF;
+}
+
+.navlogo {
+    border-collapse: collapse;
+}
+
+.navlogo img {
+    width: 20%;
+    display: block;
+    border: 2px solid black;
+}
